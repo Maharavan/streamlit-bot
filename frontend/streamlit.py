@@ -5,9 +5,9 @@ import requests
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from backend import api
-st.title("Welcome to AI Code blueprinter")
+st.title("Welcome to Streamlit Chatbot")
 
-st.caption("This app provides detail blueprint and script")
+st.caption("This bot capable of answering the questions which asked")
 
 output = st.text_input("Provide info")
 if output:
