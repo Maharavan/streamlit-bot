@@ -28,3 +28,4 @@ async def process_data(data: InputData):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating text: {str(e)}")
+
