@@ -1,1 +1,1 @@
-# streamlit chatbot
+# ai-code-blueprint
