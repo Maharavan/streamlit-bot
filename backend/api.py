@@ -25,5 +25,6 @@ async def process_data(data: InputData):
         result = pipe(data.text, max_length=200, num_return_sequences=1)
         return {"generated_text": result[0]["generated_text"]}
 
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error generating text: {str(e)}")
